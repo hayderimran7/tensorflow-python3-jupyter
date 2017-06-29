@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip --no-cache-dir install \
        	ipykernel \
+	scikit-learn \
+	keras \
+	tensorflow \
 		scipy \
         jupyter \
         matplotlib \
