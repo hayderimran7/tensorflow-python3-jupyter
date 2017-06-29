@@ -7,7 +7,7 @@ Usage
 -----
 
 ```bash
-$ docker run -p 8888:8888 \
+$ docker run -d -p 8888:8888 --name tflow \
     -v [path-to-notebooks]:/notebooks \
     -it erroneousboat/tensorflow-python3-jupyter
 ```
